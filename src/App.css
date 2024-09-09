@@ -1,0 +1,41 @@
+/* Container for the tabs */
+.tab-container {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+/* Tabs styling */
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-right: 1px solid #ddd;
+  color: #555;
+}
+
+.tab:last-child {
+  border-right: none;
+}
+
+/* Active tab style */
+.tab.active {
+  border-bottom: 2px solid blue;
+  font-weight: bold;
+  color: blue;
+}
+
+/* Content area */
+.tab-content {
+  padding: 20px;
+  font-size: 18px;
+  color: #333;
+}
